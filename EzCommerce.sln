@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzCommerce", "EzCommerce\EzCommerce.csproj", "{4EDE85A3-BF8D-4E82-BE26-22A137F42D0F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{63AD321E-03B6-47FB-AC8E-895126EC5EC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infrastructure", "2-Infrastructure", "{141A6E66-C1AB-4251-9813-323B768D951C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-App", "3-App", "{D37E3165-1496-4BBB-8C3C-BE4BDFEE99C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{CCFD111B-165A-428C-B403-F93F89B66E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C47E9C7C-D91E-43B8-BCAB-814468ADBAD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,18 @@ Global
 		{4EDE85A3-BF8D-4E82-BE26-22A137F42D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EDE85A3-BF8D-4E82-BE26-22A137F42D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EDE85A3-BF8D-4E82-BE26-22A137F42D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFD111B-165A-428C-B403-F93F89B66E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFD111B-165A-428C-B403-F93F89B66E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFD111B-165A-428C-B403-F93F89B66E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFD111B-165A-428C-B403-F93F89B66E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47E9C7C-D91E-43B8-BCAB-814468ADBAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47E9C7C-D91E-43B8-BCAB-814468ADBAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47E9C7C-D91E-43B8-BCAB-814468ADBAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47E9C7C-D91E-43B8-BCAB-814468ADBAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EDE85A3-BF8D-4E82-BE26-22A137F42D0F} = {D37E3165-1496-4BBB-8C3C-BE4BDFEE99C5}
+		{CCFD111B-165A-428C-B403-F93F89B66E12} = {63AD321E-03B6-47FB-AC8E-895126EC5EC0}
+		{C47E9C7C-D91E-43B8-BCAB-814468ADBAD7} = {141A6E66-C1AB-4251-9813-323B768D951C}
 	EndGlobalSection
 EndGlobal
