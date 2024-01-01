@@ -12,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddDbContext<EzCommerceContext>(p =>
-    p.UseSqlServer("Server=.;Database=EzCommerceDb;Trusted_Connection=True;"));
+    p.UseSqlServer("Server=.;Database=EzCommerceDb;Trusted_Connection=True;TrustServerCertificate=True"));
 
 var app = builder.Build();
 
