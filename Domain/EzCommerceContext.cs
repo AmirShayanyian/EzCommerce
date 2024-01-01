@@ -12,7 +12,7 @@ public class EzCommerceContext : IdentityDbContext<User,Role,long>
     {
         
     }
-
+    
     protected override void OnModelCreating(ModelBuilder modelbuilder)
     {
         base.OnModelCreating(modelbuilder);
